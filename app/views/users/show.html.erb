@@ -13,11 +13,14 @@
 
  <!-- Edit profile link block -->
  <div class="flex flex-row gap-x-4">
-
+  
+  <% if @user == current_user %>
     <div class="edit-my-profile-container hover:bg-gray-200 border border-black">
       <%= link_to "Edit profile", edit_user_registration_path, class: "py-2" %>
     </div>
-
+  <% end %>
+  
+  <% unless @user == current_user %>
     <div class="follow-container hover:bg-gray-200 border border-black">
       <% unless current_user.followings.include?(@user) || current_user.pending_followings.include?(@user) %>
         <%= button_to "Follow", follows_path(followed_id: @user.id, redirect_to: user_path(@user.id)), method: :post, class: "follow inline-flex items-center cursor-pointer" %>
@@ -28,6 +31,7 @@
         <% end %>
       <% end %>
     </div>
+  <% end %>
 
   </div>
   <!-- Following / Followers -->
