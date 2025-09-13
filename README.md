@@ -1,4 +1,5 @@
-# OpenDiary - Diary Site for people to share their personal stories, connect with others, and build a supportive community.  
+# OpenDiary
+Diary Site for people to share their personal stories, connect with others, and build a supportive community.  
 
 ## 🚀 Features
 - ✍️ Write and publish diary entries
@@ -15,7 +16,6 @@
 
 
 ## 💡 Inspiration: Why is the app created?
-## 💡 Inspiration & Purpose
 
 OpenDiary started as a personal learning project for me to actually build and practice what I have learnt with Full-stack Devlopment. At first, the idea was to create a simple blog website where I could write down my coding experiences and document what I’ve learned, as a private blog. 
 
