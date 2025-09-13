@@ -10,7 +10,7 @@ Diary Site for people to share their personal stories, connect with others, and 
 
 ## 🛠️ Tech Stack
 - **Backend:** Ruby on Rails
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, Tailwind CSS, JavaScript
 - **Database:** PostgreSQL
 - **Other Tools:** Devise for authentication, Active Storage for file uploads
 
